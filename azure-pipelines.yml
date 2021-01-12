@@ -4,11 +4,11 @@ trigger:
 variables:
   buildConfiguration: "Release"
   location: "North Europe"
-  acrHostName: "datacatalogregistry.azurecr.io"
-  acrName: "datacatalogregistry"
-  rgName: "datacatalog"
+  acrHostName: "newdatacatalogregistry.azurecr.io"
+  acrName: "newdatacatalogregistry"
+  rgName: "newdatacatalog"
   imageName: "usertest"
-  webAppName: "datacatalogregistryuserhandletest"
+  webAppName: "newdatacatalogregistryuserhandletest"
 
 stages:
   #Build stage
